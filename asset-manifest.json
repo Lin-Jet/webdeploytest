@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Lin-Jet/webdeploytest/static/css/main.bc3d517f.css",
-    "main.js": "/Lin-Jet/webdeploytest/static/js/main.0b8dbdfd.js",
-    "static/js/787.2b4909e4.chunk.js": "/Lin-Jet/webdeploytest/static/js/787.2b4909e4.chunk.js",
-    "index.html": "/Lin-Jet/webdeploytest/index.html",
-    "main.bc3d517f.css.map": "/Lin-Jet/webdeploytest/static/css/main.bc3d517f.css.map",
-    "main.0b8dbdfd.js.map": "/Lin-Jet/webdeploytest/static/js/main.0b8dbdfd.js.map",
-    "787.2b4909e4.chunk.js.map": "/Lin-Jet/webdeploytest/static/js/787.2b4909e4.chunk.js.map"
+    "main.css": "//lin-jet-music.com/static/css/main.bc3d517f.css",
+    "main.js": "//lin-jet-music.com/static/js/main.b848c4bf.js",
+    "static/js/787.2b4909e4.chunk.js": "//lin-jet-music.com/static/js/787.2b4909e4.chunk.js",
+    "index.html": "//lin-jet-music.com/index.html",
+    "main.bc3d517f.css.map": "//lin-jet-music.com/static/css/main.bc3d517f.css.map",
+    "main.b848c4bf.js.map": "//lin-jet-music.com/static/js/main.b848c4bf.js.map",
+    "787.2b4909e4.chunk.js.map": "//lin-jet-music.com/static/js/787.2b4909e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc3d517f.css",
-    "static/js/main.0b8dbdfd.js"
+    "static/js/main.b848c4bf.js"
   ]
 }
