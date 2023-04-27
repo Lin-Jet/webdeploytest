@@ -1,0 +1,436 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav{
+  display: flex;
+  align-content:baseline;
+  background: linear-gradient(90deg, rgb(251, 177, 177), 20%, #700c0c);
+}
+.nav-logo{
+  color: #880808;
+  padding-left: 3rem;
+}
+.nav-items{
+  display: flex;
+  list-style-type: none;
+  align-items: baseline;
+  position: absolute;
+  right: 1rem;
+  margin-top: 0.8rem;
+}
+.nav-items > li {
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+.nav-items > li > button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  transition-duration: 0.4s;
+}
+.nav-items > li > button:hover{
+  transition-duration: 0.4s;
+  color: gold;
+  transform: scale(110%);
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
+  cursor: pointer;
+}
+
+
+.blood{
+  position: absolute;
+  left: 2rem;
+  display: flex;
+  top: -3rem;
+  filter: blur(1px) opacity(80%) grayscale(30%);
+  z-index: 1;
+}
+.blood > p {
+  padding-left: 4rem;
+}
+.blood1{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.8s ease-in-out 0.1s infinite;
+}
+.blood2{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 0.2s infinite;
+}
+.blood3{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.7s ease-in-out 0.4s infinite;
+}
+.blood4{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.7s ease-in-out 0.6s infinite;
+}
+.blood5{
+  animation: drip 1.8s ease-in-out 0.9s infinite;
+}
+.blood6{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 1s infinite;
+}
+.blood7{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.6s ease-in-out 1.2s infinite;
+}
+.blood8{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.8s ease-in-out 1.4s infinite;
+}
+.blood9{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.7s ease-in-out 1.5s infinite;
+}
+.blood10{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 1.9s infinite;
+}
+.blood11{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.8s ease-in-out 2.0s infinite;
+}
+.blood12{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 2.1s infinite;
+}
+.blood13{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.7s ease-in-out 2.3s infinite;
+}
+.blood14{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 2.6s infinite;
+}
+.blood15{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.6s ease-in-out 2.7s infinite;
+}
+.blood16{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 2.9s infinite;
+}
+.blood17{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 3.0s infinite;
+}
+.blood18{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 3.1s infinite;
+}
+.blood19{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 3.3s infinite;
+}
+.blood20{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 3.5s infinite;
+}
+.blood21{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 3.6s infinite;
+}
+.blood22{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 3.8s infinite;
+}
+.blood23{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 3.9s infinite;
+}
+.blood24{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 4s infinite;
+}
+.blood25{
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: drip 1.9s ease-in-out 4.1s infinite;
+}
+@keyframes drip {
+  0%{
+    transform: translateY(0px);
+    opacity: 10%;
+  }
+  12.5%{
+    opacity: 100%;
+  }
+  25%{
+    transform: translateY(30px);
+  }
+  80%{
+    filter: blur(0px);
+  }
+  99%{
+    transform: translateY(150px);
+
+  }
+  100%{
+    display: none;
+    filter: blur(10px);
+  }
+  150%{
+    display: none;
+  }
+  200%{
+    display: none;
+  }
+
+}
+
+.main{
+  background: linear-gradient(120deg, white, red);
+  padding-top: 1rem;
+  margin:0rem;
+  max-height: 98vh;
+}
+.main-video{
+  filter: blur(8px) hue-rotate(330deg) saturate(200%) grayscale(300%);
+  min-width: 100vw;
+  max-height: 100vh;
+  object-fit: cover;
+  overflow-y: hidden;
+  z-index: -3;
+  margin-top: -1rem;
+  opacity: 90%;
+}
+.main-title{
+  z-index: 3;
+  color: #880808;
+  font-size: 8em;
+  position: absolute;
+  top: 10rem;
+  left: 3rem;
+  animation: blinker 8s ease-in-out 0.3s infinite;
+}
+.main-subtitle{
+  z-index: 3;
+  color: #880808;
+  font-size: 1.5em;
+  font-weight: 700;
+  position: absolute;
+  top: 23rem;
+  left: 3rem;
+  animation: blinker 8s ease-in-out 0.6s infinite;
+}
+
+@keyframes blinker {
+  0%{
+    opacity: 30%;
+    filter: brightness(100%);
+  }
+  50%{
+    opacity: 100%;
+    filter: brightness(150%);
+  }
+  100%{
+    opacity: 30%;
+    filter: brightness(100%);
+  }
+}
+/* .main-feature{
+  z-index: 3;
+  position: absolute;
+  top: 25rem;
+  left: 20rem;
+  width: 28rem;
+  height: 18rem;
+} */
+
+.mv{
+  color: white;
+  margin-top: 3rem;
+}
+.mv > ul{
+  list-style-type: none;
+}
+.mv-title{
+  animation: blinker 3s ease-in-out 0.6s infinite;
+}
+.mv-vid{
+  margin: 3rem;
+  border: white solid 1rem;
+  box-shadow: 1rem 1rem 3rem #880808;
+}
+
+.genre-dropdown{
+  position: relative;
+  display:inline-block;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  color: white;
+  font-size: 1.2em;
+  z-index: 3;
+}
+.genre-dropdown-content{
+  transition-duration: 0.4s;
+  display: none;
+  position: absolute;
+  z-index:1;
+  right:0.03rem;
+  padding-top: 0.5rem;
+}
+.genre-dropdown-content > li{
+  position: relative;
+  transition-duration: 0.4s;
+  border: none;
+  background: none;
+  padding-top: 0.5rem;
+}
+.genre-dropdown-content > li > button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  transition-duration: 0.4s;
+}
+.genre-dropdown-content > li > button:hover{
+  transition-duration: 0.4s;
+  color: gold;
+  transform: scale(110%);
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
+  cursor: pointer;
+}
+.genre-dropdown:hover .genre-dropdown-content{
+  transition-duration: 0.4s;
+  display: block;
+}
+.genre-dropdown:hover{
+  cursor: pointer;
+  color: gold;
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
+  transform: scale(110%);
+  transition-duration: 0.4s;
+}
+
+
+.footer{
+  padding: 1rem;
+  background: #880808;
+  min-height: 3rem;
+}
+
+.footer-items{
+  display: flex;
+  list-style-type: none;
+  float: right;
+  padding-right: 1.5rem;
+}
+
+.footer-items > li > button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  transition-duration: 0.4s;
+  padding-right: 3rem;
+}
+.footer-items > li > button:hover{
+  transition-duration: 0.4s;
+  color: gold;
+  transform: scale(110%);
+  filter: drop-shadow(0.5rem 0.5rem 0.5rem white);
+  cursor: pointer;
+}
+
+/*MOBILE VIEWPORTS*/
+@media screen and (min-width: 300px) and (max-width: 880px) {
+  .nav{
+    display: flex;
+    align-content:baseline;
+    margin-bottom:5rem;
+    padding-bottom: 1rem;
+    background: none;
+    position: relative;
+    top:3rem;
+  }
+  .nav-logo{
+    display: block;
+    position: relative;
+    top: -4rem;
+    margin: auto;
+    margin-bottom: -4rem;
+  }
+  .nav-items > li{
+    position: relative;
+    margin-right: 1rem;
+    min-width:0.5rem;
+    font-size: small;
+    padding:0rem;
+  }
+  .blood{
+    position: absolute;
+    left: -3rem;
+    top: -8rem;
+  }
+
+  .main-video{
+    max-width: 100vw;
+    max-height: 100vh;
+
+  }
+  .main-title{
+    font-size: 2.5em;
+    position: absolute;
+    top: 18%;
+  }
+  .main-subtitle{
+    display: none;
+  }
+  .main-feature{
+    display: none;
+  }
+
+
+  .genre-dropdown-content{
+    right: -1.5rem;
+  }
+
+  .mv-vid{
+    max-width: 80vw;
+    margin-left: -1rem;
+  }
+
+
+  .footer-items{
+    float: right;
+  }
+}
+
